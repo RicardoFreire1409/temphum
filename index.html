@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Home Monitor · Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fuente y Chart.js -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+
+  <style>
+    :root{
+      --bg: #0b1220;
+      --panel: rgba(255,255,255,0.06);
+      --panel-border: rgba(255,255,255,0.12);
+      --muted: #a0aec0;
+      --text: #eef2f7;
+      --accent: #60a5fa;
+      --ok: #10b981;
+      --warn: #f59e0b;
+      --bad: #ef4444;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+      --radius: 16px;
+    }
+    *{ box-sizing: border-box; }
+    html,body{ margin:0; height:100%; background: radial-gradient(1200px 800px at 10% 0%, #121a2f 0%, #0b1220 60%); color:var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .wrap{ max-width: 1200px; margin: 32px auto; padding: 0 20px; }
+
+    /* Header */
+    .header{
+      display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+    }
+    .logo{ width:38px; height:38px; border-radius:10px; background: linear-gradient(135deg, #60a5fa, #34d399); box-shadow: var(--shadow); }
+    .title{ font-size: clamp(18px, 2.5vw, 24px); font-weight:700; letter-spacing:.2px; }
+    .sub{ color:var(--muted); font-size:13px; margin-top:2px; }
+    .live{
+      display:flex; align-items:center; gap:10px;
+      background: var(--panel); border: 1px solid var(--panel-border);
+      border-radius: 999px; padding: 8px 12px; backdrop-filter: blur(8px);
+    }
+    .dot{ width:10px; height:10px; border-radius:50%; background:#9ca3af; box-shadow: 0 0 0 0 rgba(96,165,250,0.0); transition: box-shadow .25s ease, background .25s ease; }
+    .dot.active{ background: var(--accent); box-shadow: 0 0 0 6px rgba(96,165,250,.18); }
+    .live span{ font-size:13px; color:var(--muted); }
+    .btn{
+      border:1px solid var(--panel-border); color:var(--text); background:var(--panel); padding:8px 12px; border-radius:10px; cursor:pointer;
+    }
+    .btn:hover{ border-color:#3b82f6; }
+
+    /* Grid & Panels */
+    .grid{
+      display:grid; gap:16px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    .panel{
+      background: var(--panel); border:1px solid var(--panel-border);
+      border-radius: var(--radius); padding:16px; backdrop-filter: blur(8px); box-shadow: var(--shadow);
+    }
+    .panel h3{ margin:0 0 12px; font-size:14px; font-weight:600; color:#cdd7e3; letter-spacing:.3px; text-transform: uppercase; }
+
+    /* Cards */
+    .card{
+      display:grid; grid-template-columns: 1fr 1fr; gap:12px; align-items:center;
+    }
+    .room{
+      background: rgba(255,255,255,0.04); border:1px solid var(--panel-border);
+      border-radius: 14px; padding:14px;
+    }
+    .room .label{ color:var(--muted); font-size:12px; letter-spacing:.3px; text-transform: uppercase; }
+    .vals{ display:flex; gap:16px; margin-top:8px; align-items:baseline; }
+    .big{ font-size: clamp(22px, 3vw, 32px); font-weight:700; }
+    .unit{ color:var(--muted); font-size:12px; margin-left:4px; }
+    .badge{
+      margin-left:8px; padding:4px 8px; border-radius: 999px; font-size:11px; letter-spacing:.2px; border:1px solid var(--panel-border);
+    }
+    .ok{ background: rgba(16,185,129,.12); border-color: rgba(16,185,129,.35); color:#86efac; }
+    .warn{ background: rgba(245,158,11,.12); border-color: rgba(245,158,11,.35); color:#fde68a; }
+    .bad{ background: rgba(239,68,68,.13); border-color: rgba(239,68,68,.35); color:#fecaca; }
+
+    /* Chart containers */
+    .charts{ grid-column: span 12; display:grid; gap:16px; grid-template-columns: repeat(12, 1fr); }
+    .chart{ grid-column: span 12; }
+    @media(min-width: 1024px){
+      .chart { grid-column: span 6; }
+    }
+    canvas{ width:100% !important; height: 360px !important; }
+
+    /* Footer small */
+    .foot{ margin-top:16px; color:var(--muted); font-size:12px; text-align:right; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <div class="header">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <div class="title">Home Monitor · Dashboard</div>
+          <div class="sub">Temperatura y Humedad · Salón de arriba & Salón de abajo</div>
+        </div>
+      </div>
+      <div style="display:flex; gap:10px; align-items:center;">
+        <div class="live"><div id="dot" class="dot"></div><span id="liveTxt">offline</span></div>
+        <button class="btn" id="btnClear">Limpiar historial</button>
+      </div>
+    </div>
+
+    <!-- KPIs -->
+    <div class="panel">
+      <h3>Resumen rápido</h3>
+      <div class="card">
+        <!-- Arriba -->
+        <div class="room">
+          <div class="label">Salón de arriba</div>
+          <div class="vals">
+            <div><span id="up_t" class="big">—</span><span class="unit">°C</span></div>
+            <div><span id="up_h" class="big">—</span><span class="unit">%</span></div>
+          </div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">
+            Estado: <span id="up_badge" class="badge ok">OK</span>
+          </div>
+        </div>
+        <!-- Abajo -->
+        <div class="room">
+          <div class="label">Salón de abajo</div>
+          <div class="vals">
+            <div><span id="down_t" class="big">—</span><span class="unit">°C</span></div>
+            <div><span id="down_h" class="big">—</span><span class="unit">%</span></div>
+          </div>
+          <div style="margin-top:8px; font-size:12px; color:var(--muted);">
+            Estado: <span id="down_badge" class="badge ok">OK</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="charts">
+      <div class="panel chart">
+        <h3>Temperatura · Histórico</h3>
+        <canvas id="chartTemp"></canvas>
+      </div>
+      <div class="panel chart">
+        <h3>Humedad · Histórico</h3>
+        <canvas id="chartHum"></canvas>
+      </div>
+    </div>
+
+    <div class="foot">Actualiza en vivo desde /stream · Historial de /history</div>
+  </div>
+
+  <script>
+    // Elementos UI
+    const up_t = document.getElementById('up_t'), up_h = document.getElementById('up_h');
+    const down_t = document.getElementById('down_t'), down_h = document.getElementById('down_h');
+    const dot = document.getElementById('dot'), liveTxt = document.getElementById('liveTxt');
+    const upBadge = document.getElementById('up_badge'), downBadge = document.getElementById('down_badge');
+    const btnClear = document.getElementById('btnClear');
+
+    // Umbrales (ajusta a tu ambiente)
+    const T_WARN = 30, T_BAD = 35;
+    const H_WARN = 70, H_BAD = 85;
+
+    function badgeClass(temp, hum){
+      let cls = 'badge ok';
+      if ((temp != null && temp >= T_BAD) || (hum != null && hum >= H_BAD)) cls = 'badge bad';
+      else if ((temp != null && temp >= T_WARN) || (hum != null && hum >= H_WARN)) cls = 'badge warn';
+      return cls;
+    }
+
+    let pulse;
+    function pingLive(){
+      dot.classList.add('active'); liveTxt.textContent = 'online';
+      clearTimeout(pulse); pulse = setTimeout(()=>dot.classList.remove('active'), 700);
+    }
+
+    // Charts
+    const common = {
+      responsive:true, animation:false,
+      plugins:{ legend:{ labels:{ color:'#cdd7e3' } } },
+      scales:{
+        x:{ type:'time', time:{ unit:'minute' }, grid:{ color:'rgba(255,255,255,0.06)' }, ticks:{ color:'#8ea0b8' } },
+        y:{ grid:{ color:'rgba(255,255,255,0.06)' }, ticks:{ color:'#8ea0b8' } }
+      }
+    };
+
+    const tempChart = new Chart(document.getElementById('chartTemp').getContext('2d'), {
+      type:'line',
+      data:{ datasets:[
+        { label:'Arriba (°C)', data:[], parsing:false, tension:.25, pointRadius:0, borderWidth:2 },
+        { label:'Abajo (°C)',  data:[], parsing:false, tension:.25, pointRadius:0, borderWidth:2 }
+      ]},
+      options:{ ...common, scales:{ ...common.scales, y:{ ...common.scales.y, title:{display:true, text:'°C', color:'#cdd7e3'} } } }
+    });
+
+    const humChart = new Chart(document.getElementById('chartHum').getContext('2d'), {
+      type:'line',
+      data:{ datasets:[
+        { label:'Arriba (%)', data:[], parsing:false, tension:.25, pointRadius:0, borderWidth:2 },
+        { label:'Abajo (%)',  data:[], parsing:false, tension:.25, pointRadius:0, borderWidth:2 }
+      ]},
+      options:{ ...common, scales:{ ...common.scales, y:{ ...common.scales.y, min:0, max:100, title:{display:true, text:'%RH', color:'#cdd7e3'} } } }
+    });
+
+    // Rellena historial inicial
+    fetch('/history').then(r=>r.json()).then(h=>{
+      const pack = (ts, arr) => ts.map((t,i)=>({x:new Date(ts[i]), y: arr[i] != null ? Number(arr[i]) : null})).filter(p=>p.y!=null && !Number.isNaN(p.y));
+      tempChart.data.datasets[0].data = pack(h.up.ts, h.up.t);
+      tempChart.data.datasets[1].data = pack(h.down.ts, h.down.t);
+      humChart.data.datasets[0].data  = pack(h.up.ts, h.up.h);
+      humChart.data.datasets[1].data  = pack(h.down.ts, h.down.h);
+      tempChart.update(); humChart.update();
+    });
+
+    // SSE en vivo
+    const es = new EventSource('/stream');
+    es.onmessage = (ev)=>{
+      try{
+        const s = JSON.parse(ev.data);
+        const now = s.ts ? new Date(s.ts * 1000) : new Date();
+
+        // Arriba
+        const ut = s.up?.t != null ? Number(s.up.t) : null;
+        const uh = s.up?.h != null ? Number(s.up.h) : null;
+        if (ut != null && !Number.isNaN(ut)) { up_t.textContent = ut.toFixed(1); tempChart.data.datasets[0].data.push({x:now, y:ut}); }
+        if (uh != null && !Number.isNaN(uh)) { up_h.textContent = uh.toFixed(1); humChart.data.datasets[0].data.push({x:now, y:uh}); }
+        upBadge.className = badgeClass(ut, uh);
+        upBadge.textContent = upBadge.classList.contains('bad') ? 'ALERTA' : upBadge.classList.contains('warn') ? 'ADVERTENCIA' : 'OK';
+
+        // Abajo
+        const dt = s.down?.t != null ? Number(s.down.t) : null;
+        const dh = s.down?.h != null ? Number(s.down.h) : null;
+        if (dt != null && !Number.isNaN(dt)) { down_t.textContent = dt.toFixed(1); tempChart.data.datasets[1].data.push({x:now, y:dt}); }
+        if (dh != null && !Number.isNaN(dh)) { down_h.textContent = dh.toFixed(1); humChart.data.datasets[1].data.push({x:now, y:dh}); }
+        downBadge.className = badgeClass(dt, dh);
+        downBadge.textContent = downBadge.classList.contains('bad') ? 'ALERTA' : downBadge.classList.contains('warn') ? 'ADVERTENCIA' : 'OK';
+
+        // Recorta a 300 puntos (ajusta a tu HIST_LEN en backend)
+        const trim = ds => { while (ds.length > 300) ds.shift(); };
+        tempChart.data.datasets.forEach(d=>trim(d.data));
+        humChart.data.datasets.forEach(d=>trim(d.data));
+
+        tempChart.update('none'); humChart.update('none'); pingLive();
+      }catch(e){ console.error(e); }
+    };
+    es.onerror = ()=>{ liveTxt.textContent='offline'; dot.classList.remove('active'); };
+
+    // Limpiar historial desde UI (solo visual)
+    btnClear.onclick = ()=>{
+      tempChart.data.datasets.forEach(d=>d.data.length=0);
+      humChart.data.datasets.forEach(d=>d.data.length=0);
+      tempChart.update(); humChart.update();
+    };
+  </script>
+</body>
+</html>
