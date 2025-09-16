@@ -1,0 +1,3201 @@
+[
+  {
+    "id": 1,
+    "question": "La topografía se define de la siguiente manera:",
+    "options": [
+      "Es la disciplina que emplea los conocimientos matemáticos y de ciencias afines para diseñar , construir y mantener infraestructura y obras físicas en el entorno terrestre.",
+      "Es la ciencia que estudia o genera procedimientos para determinar y representar gráficamente las posiciones relativas de puntos o nodos en la tierra.",
+      "Es la rama de la ingeniería que se ocupa de los proyectos de extracción de minerales de la superficie terrestre y el subsuelo."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 2,
+    "question": "Los tres conceptos básicos que utiliza la topografía en sus metodologías son:",
+    "options": [
+      "Distancia, altura y tiempo",
+      "Dirección, ángulo y módulo",
+      "Distancia, dirección y elevación"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 3,
+    "question": "La topografía plana se encarga del estudio de grandes superficies y toma en consideración la curvatura terrestre en su metodología, mientras que la geodesia se encarga de la medición de superficies pequeñas y no toma en consideración la curvatura terrestre.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 4,
+    "question": "La topografía está presente en la creación de elementos esenciales en el desarrollo agrario y el manejo de aguas, como lo son los sistemas de abastecimiento de agua potable, canales de riego e irrigación y presas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 5,
+    "question": "La siguiente ciencia no forma parte de las ciencias de apoyo de la topografía:",
+    "options": [
+      "Fisiología",
+      "Óptica",
+      "Hidrografía"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 6,
+    "question": "¿En cuál de las siguientes actividades de producción agrícola se involucran a las metodologías topográficas?:",
+    "options": [
+      "Manejo y planeación de rutas de fumigación.",
+      "Selección de especies vegetales.",
+      "Manejo de rutas de comercio."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 7,
+    "question": "El distanciómetro es:",
+    "options": [
+      "Un instrumento óptico con elementos movibles que permite medir ángulos, tanto verticales como horizontales.",
+      "Una regleta graduada, usualmente metálica, de madera, o de fibra de vidrio, que se utiliza junto con el nivel topográfico y permite conocer distancias y desniveles.",
+      "Un dispositivo electrónico que permite obtener la distancia inclinada entre el aparato y un punto determinado puede funcionar mediante radar , infrarrojo o láser"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 8,
+    "question": "El sistema LIDAR es:",
+    "options": [
+      "Un sistema de medición aérea para la obtención rápida de datos topográficos.",
+      "Un sistema digital que funciona mediante la detección y triangulación de redes satelitales, obteniendo de manera precisa las coordenadas y altitudes de su ubicación.",
+      "Un sistema que utiliza luz para la realización de mediciones topográficas."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 9,
+    "question": "El nivel topográfico es actualmente una herramienta desfasada para la toma de elevaciones topográficas, y su exactitud es baja en comparación con las estaciones totales y los sistemas GPS/GNSS.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 10,
+    "question": "Los sistemas CAD trabajan con gráficos vectoriales y los sistemas SIG trabajan con proyecciones RASTER.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 11,
+    "question": "Los gráficos RASTER son:",
+    "options": [
+      "Elementos gráficos lineales que funcionan mediante líneas, puntos y polígonos, ligados a un sistema de coordenadas.",
+      "Elementos gráficos también llamados mapas de bits o píxeles, en los que cada elemento tiene una ubicación determinada y una característica fija.",
+      "Elementos gráficos que utilizan vectores."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 12,
+    "question": "Los sistemas SIG son más fáciles de utilizar que los sistemas CAD, inclusive para quienes no están acostumbrados a trabajar con software de esta naturaleza, por lo tanto, son más accesibles al momento de mostrarlos al público en general.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 13,
+    "question": "El plano topográfico es:",
+    "options": [
+      "La representación gráfica de un estudio topográfico, en el cual se representan las medidas y los elementos de una construcción.",
+      "La representación gráfica de un estudio topográfico, en el cual se establecen los elementos de la superficie terrestre mediante un sistema de coordenadas.",
+      "La representación gráfica de un estudio topográfico, en el cual se representan las características climáticas de una región."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 14,
+    "question": "La escala en un plano topográfico es:",
+    "options": [
+      "La acotación gráfica de los lados de un polígono medido.",
+      "El conjunto de datos del predio medido, ordenados según su importancia.",
+      "La relación de la proporción entre un elemento real y su contraparte gráfica."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál de los siguientes no es un plano topográfico?:",
+    "options": [
+      "Plano de instalaciones hidráulicas",
+      "Plano de curvas de nivel",
+      "Plano de secciones y perfiles de proyecto"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 16,
+    "question": "El plano altimétrico es un elemento gráfico que representa la superficie de un terreno, considerando solamente los elementos horizontales que lo componen.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 17,
+    "question": "A los levantamientos topográficos que consideran los elementos horizontales y verticales de un predio se les denomina:",
+    "options": [
+      "Levantamientos fotogramétricos",
+      "Levantamientos taquimétricos",
+      "Levantamientos por método de triangulaciones"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 18,
+    "question": "Los métodos de triangulación, radiación, intersección y poligonación son los métodos más usuales para la realización de levantamientos altimétricos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 19,
+    "question": "La nivelación barométrica se basa en:",
+    "options": [
+      "La medición de la presión atmosférica y su variación a distintas alturas con respecto al nivel del mar , utilizando un aparato construido para este fin.",
+      "Obtener los niveles de un terreno a partir del uso de instrumentos visuales horizontales.",
+      "Obtener datos altimétricos y planimétricos al mismo tiempo, mediante el uso de teodolitos o estaciones totales."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 20,
+    "question": "La teoría de los errores se encarga de medir la magnitud y el origen de las variaciones y errores propios de los métodos topográficos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 21,
+    "question": "Los errores en las mediciones son siempre provocados por equivocaciones en la aplicación del método topográfico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 22,
+    "question": "Según la teoría de los errores, los errores de medición son aquellas fallas intrínsecas del modelo topográfico, mientras que las equivocaciones son el resultado de fallas cometidas por el observador .",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 23,
+    "question": "Los errores naturales son:",
+    "options": [
+      "Los que se derivan de fallas o de una mala calidad del equipo utilizado.",
+      "Los que tienen su origen en las condiciones ambientales en que se realizan los trabajos.",
+      "Los que tienen su origen en las limitaciones humanas."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 24,
+    "question": "Los sesgos son errores que tienen su origen en la metodología topográfica y dependen de leyes físicas y matemáticas, además, son fáciles de corregir o compensar una vez que han sido detectados.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 25,
+    "question": "Todos los trabajos topográficos:",
+    "options": [
+      "Tienen un nivel de tolerancia a los errores, que se determina según la finalidad de dicho trabajo.",
+      "Tienen que reducir los errores de medición a cero, no permiten ningún nivel de tolerancia al mismo.",
+      "Ninguna de las anteriores"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 26,
+    "question": "El cálculo de valor más probable es un método de compensación de errores aceptado.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 27,
+    "question": "El número π/3 es:",
+    "options": [
+      "Racional",
+      "Irracional",
+      "Entero"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 28,
+    "question": "La raiz cubica de 512",
+    "options": [
+      "Entero",
+      "Irracional",
+      "Ninguna de las anteriores"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 29,
+    "question": "Factoriza 9𝑥2 + 12𝑥 + 4 ",
+    "options": [
+      "(3𝑥−2)**2",
+      "(3𝑥−2)(3𝑥+2)",
+      "(3𝑥+2)**2"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 30,
+    "question": "Factoriza completamente la expresión (𝑥2 −16)**2 − (𝑥+4)**2",
+    "options": [
+      "(𝑥+4)**2 (𝑥−4)**2 − (𝑥+4)**2",
+      "(𝑥+4)**2 (𝑥−5)(𝑥−3)",
+      "(𝑥+4)**2 (𝑥2 +8𝑥+16)"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 31,
+    "question": "Determina el máximo factor común en la expresión (4𝑎−𝑐)**2 (𝑎−𝑑) +5𝑑(4𝑎−𝑐)**4",
+    "options": [
+      "(4𝑎−𝑐)**2",
+      "(4𝑎−𝑐)**4",
+      "𝑑"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 32,
+    "question": "El polinomio 2𝑥**3 + 𝑥**2 + 2𝑥 + 1 ¿es un polinomio primo? (Es decir que no se puede factorizar).",
+    "options": [
+      "Sí",
+      "No",
+      "No se puede saber"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se definen los números irracionales?",
+    "options": [
+      "Son los que tienen una expresión decimal infinita y no periódica",
+      "Son los que tienen una expresión decimal finita y no periódica",
+      "Son los que tienen una expresión decimal infinita y periódica"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 34,
+    "question": "¿Por qué el número es irracional?√2",
+    "options": [
+      "Tiene un periodo infinito.",
+      "No tiene periodo.",
+      "Tiene un periodo finito."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 35,
+    "question": "¿Es un ejemplo de número irracional? a)3 8 b)3 73 c)3 7",
+    "options": [
+      "Raiz cubica de 8",
+      "Raiz cubica de (7**3)",
+      "Raiz cubica de 7"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 36,
+    "question": "La importancia de la factorización se debe a sus aplicaciones en:",
+    "options": [
+      "Cálculo",
+      "Probabilidad",
+      "Estadística"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 37,
+    "question": "Las expresiones resultantes de la factorización se le llaman:",
+    "options": [
+      "Factores",
+      "Radicales",
+      "Exponentes"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se denomina la tasa de cambio instantánea (o derivada) en economía?",
+    "options": [
+      "Marginal",
+      "Costo marginal",
+      "Costo promedio"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 39,
+    "question": "Son las ventas obtenidas a lo largo de un periodo de tiempo:",
+    "options": [
+      "Función Utilidad",
+      "Función Ingreso",
+      "Función Costo"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 40,
+    "question": "Son costos que no cambian de acuerdo con el nivel de producción:",
+    "options": [
+      "Costos fijos",
+      "Costos variables",
+      "Costos totales"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 41,
+    "question": "Son costos que si cambian de acuerdo con el nivel de producción:",
+    "options": [
+      "Costos fijos",
+      "Costos variables",
+      "Costos totales"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 42,
+    "question": "Es la diferencia que existe de la función Ingreso y la función Costos",
+    "options": [
+      "Función Utilidad",
+      "Función Ingreso Marginal",
+      "La función Costo Marginal"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 43,
+    "question": "El objetivo de la bioquímica consiste únicamente en el estudio de la composición química de los seres vivos.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 44,
+    "question": "El ________________ y el _________ son ejemplos de bioelementos primarios y dentro de los bioelementos secundarios encontramos al __________ y ___________.",
+    "options": [
+      "Cromo y nitrógeno; yodo y aluminio",
+      "Silicio y zinc; yodo y sodio",
+      "Carbono e hidrógeno; potasio y calcio"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 45,
+    "question": "El agua constituye aproximadamente el ______% del peso de la mayoría de los organismos.",
+    "options": [
+      "30",
+      "70",
+      "50"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 46,
+    "question": "¿Por qué se dice que la molécula de agua es dipolar?",
+    "options": [
+      "Porque está formada por un átomo de hidrógeno y uno de oxígeno",
+      "Porque posee una región electronegativa y otra electropositiva unidas por enlaces covalentes",
+      "Porque poseen un enlace covalente"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 47,
+    "question": "¿Por qué el agua es un disolvente polar?",
+    "options": [
+      "Porque disuelve fácilmente la mayoría de biomoléculas polares",
+      "Porque disuelve todos los compuestos sin excepción",
+      "Porque disuelve fácilmente los bioelementos"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 48,
+    "question": "Área de la Biología encargada del estudio de los procesos de absorción, transformación y distribución de la energía en los sistemas biológicos.",
+    "options": [
+      "Bioquímica",
+      "Termodinámica",
+      "Bioenergética"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 49,
+    "question": "En la bioenergética, los cambios de ______________ permiten cuantificar , la probabilidad de que una reacción química ocurra.",
+    "options": [
+      "Energía de Gibbs",
+      "Energía intramolecular",
+      "Energía potencial"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es el principio que enuncia: “En cualquier cambio físico o químico, la cantidad total de energía en el universo permanece constante; la energía puede cambiar de forma o puede ser transportada de una región a otra, pero no puede ser creada o destruida”?",
+    "options": [
+      "Principio de Pascal",
+      "Principio de Arquímedes",
+      "Principio de la conservación de la energía"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 51,
+    "question": "La segunda ley de la termodinámica se refiere a:",
+    "options": [
+      "Los cambios de energía de Gibbs",
+      "Al aumento de entropía del universo",
+      "La transformación de las biomoléculas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 52,
+    "question": "¿Cómo se le llama a la transferencia de información de una célula a otra?",
+    "options": [
+      "Señal celular",
+      "Comunicación intercelular",
+      "Supervivencia celular"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 53,
+    "question": "La comunicación intercelular ayuda al crecimiento y funcionamiento celular normal.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 54,
+    "question": "En la señalización intracelular , ¿Con qué nombre se conoce a las moléculas señalizadoras que se unen a receptores específicos?",
+    "options": [
+      "Conectores",
+      "Uniones",
+      "Ligandos"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 55,
+    "question": "El proceso de catabolismo requiere de energía para recomponer enlaces químicos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 56,
+    "question": "Un ejemplo de un proceso de catabolismo es:",
+    "options": [
+      "La fotosíntesis",
+      "La glucólisis",
+      "La síntesis de proteínas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 57,
+    "question": "El metabolismo se centra en sintetizar las biomoléculas esenciales para la vida como lo son:",
+    "options": [
+      "Aminoácidos, ácidos grasos, triglicéridos y proteínas",
+      "Carbohidratos, azúcares y aminoácidos",
+      "Proteínas, carbohidratos, lípidos y ácidos nucleicos"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 58,
+    "question": "Las biomoléculas se dividen en: _________ e____________",
+    "options": [
+      "Lípidos e insolubles",
+      "Orgánicas e inorgánicas",
+      "Físicas y químicas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 59,
+    "question": "¿Cuáles son las biomoléculas orgánicas?",
+    "options": [
+      "Agua, sales minerales, lípidos y vitaminas",
+      "Glúcidos, lípidos, proteínas, vitaminas y ácidos nucleicos",
+      "Glúcidos, lípidos, proteínas, vitaminas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 60,
+    "question": "¿Cómo se le llama a la sustancia encargada de aumentar la velocidad de una reacción?",
+    "options": [
+      "Sustrato",
+      "Acelerador",
+      "Catalizador"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 61,
+    "question": "Una enzima no es un catalizador por naturaleza.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 62,
+    "question": "¿Qué es la energía de activación?",
+    "options": [
+      "C antidad de energía que se necesita para que se lleve a cabo una reacción.",
+      "Cantidad de energía que se necesita para que la reacción llegue a su velocidad máxima.",
+      "Cantidad de energía necesaria para que la enzima se una con el sustrato."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 63,
+    "question": "¿Cómo se le llama a la parte dónde la enzima se une con el sustrato?",
+    "options": [
+      "Sitio de concentración.",
+      "Sitio activo.",
+      "Sitio de catalización."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 64,
+    "question": "¿Qué sucede si se altera el pH en una reacción?",
+    "options": [
+      "La actividad enzimática se acelera",
+      "La actividad enzimática mantiene su velocidad y la enzima se desnaturaliza",
+      "La actividad enzimática se hace más lenta"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 65,
+    "question": "Dentro de la clasificación de las enzimas se encuentran:",
+    "options": [
+      "Liasas e Isomerasas",
+      "Hidrolasas y Caseína",
+      "Insulina y Oxidorreductasas"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 66,
+    "question": "¿De qué se encarga la cinética enzimática?",
+    "options": [
+      "Estudia las reacciones que son catalizadas por las enzimas.",
+      "Estudia la velocidad de las reacciones que son catalizadas por las enzimas.",
+      "Estudia el movimiento de las reacciones que son catalizadas por las enzimas."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 67,
+    "question": "¿Cuáles son los tipos de inhibidores enzimáticos?",
+    "options": [
+      "Activos e inactivos.",
+      "Competitivos y no activos.",
+      "Competitivos y no competitivos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 68,
+    "question": "Los inhibidores no competitivos impiden la catalización y formación de productos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es el modelo en el que las enzimas actúan similar a la gráfica ideal, con curvas parabólicas al graficar la velocidad contra la concentración del sustrato?",
+    "options": [
+      "Modelo de Michaelis-Menten",
+      "Modelo de Laplace",
+      "Modelo de Marshall"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 70,
+    "question": "En la acción enzimática, existe el fenómeno feed back que se refiere a un almacenaje de producto final en una cadena de reacciones catalizadas por enzimas, en donde se puede ______________ la actividad de la primera enzima y se ajusta la velocidad de toda la vía metabólica.",
+    "options": [
+      "Activar",
+      "Ajustar",
+      "Desactivar"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 71,
+    "question": "Las hormonas son sustancias que transmiten estímulos con la finalidad de regular algunos procesos como el crecimiento, metabolismo y reproducción para lograr la __________.",
+    "options": [
+      "Velocidad enzimática",
+      "Homeostasis",
+      "Acción enzimática"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 72,
+    "question": "Las proteínas se pueden encontrar únicamente en dos estructuras diferentes: primaria y secundaria.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 73,
+    "question": "La economía permite conocer las bases de las necesidades humanas, su producción, distribución, reutilización y el mejor aprovechamiento de los recursos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 74,
+    "question": "Es la ciencia de la elección, explicando qué recursos son necesarios administrar , cómo, cuándo, dónde y a quién.",
+    "options": [
+      "El mercado",
+      "La economía",
+      "El gobierno"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 75,
+    "question": "Trabajo, tierra, capital y ganancias son recursos de la economía.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 76,
+    "question": "Se le llama _____________ al estudio de las decisiones de individuos y empresas y la interacción de esas decisiones en los mercados.",
+    "options": [
+      "Macroeconomía",
+      "Oikos",
+      "Microeconomía"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 77,
+    "question": "Estudio de la economía nacional y global, buscando explicar los precios promedios y el empleo, ingreso y producción total.",
+    "options": [
+      "Economía de mercado",
+      "Nación",
+      "Macroeconomía"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 78,
+    "question": "Son tres agentes económicos fundamentales en la economía",
+    "options": [
+      "Familia, empresa, mercado",
+      "Familia, empresa, Estado",
+      "Mercado, productor , comprador"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 79,
+    "question": "Responsables en las decisiones de la producción y distribución. Tienen como objetivo la producción de bienes o productos que serán demandados por los familiares o individuos de las sociedades. Pueden ser públicas, privadas o voluntarias.",
+    "options": [
+      "Estado",
+      "Empresas",
+      "Familias"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 80,
+    "question": "Las personas piensan en costos y beneficios al adquirir un producto; es decir , piensan en términos marginales.",
+    "options": [
+      "Es un principio de la economía",
+      "Es un principio de la oferta y la demanda",
+      "Es un principio de la teoría neoclásica"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 81,
+    "question": "El resultado de la interacción entre consumidores y productores en un mercado competitivo determina el equilibrio de oferta y demanda, precio y cantidad.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 82,
+    "question": "Son los principales consumidores que demandan productos para sus necesidades y brindan su capital humano a las empresas. Asimismo, está integrada por individuos y grupos de personas que cumplen las funciones de consumir , ahorrar , producir y proveer empleos.",
+    "options": [
+      "La empresa",
+      "El estado",
+      "Las familias"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 83,
+    "question": "La economía agrícola o agraria es una rama de la economía que tiene como objetivo el estudio del sector agropecuario, así como sus relaciones con el resto del sistema económico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 84,
+    "question": "La función de producción hace referencia a la cantidad de bienes que se pueden producir como máximo teniendo una determinada cantidad de recursos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 85,
+    "question": "La economía agrícola se relaciona con otras ciencias como:",
+    "options": [
+      "Arte, antropología y física",
+      "Álgebra",
+      "Matemáticas y estadística"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 86,
+    "question": "Actividad económica que se encarga de transformar los insumos para convertirlos en productos, para llevarla a cabo se necesita la combinación de los factores de producción (tierra, trabajo, capital); mientras mejor y más eficiente sea este proceso, se podrán producir más bienes y servicios destinados a satisfacer las necesidades de los individuos.",
+    "options": [
+      "Producción",
+      "Desarrollo de productos",
+      "Economía agrícola"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 87,
+    "question": "La ley de rendimientos decrecientes o ley de proporciones variables es la disminución del incremento marginal de la producción a medida que se añade un factor productivo manteniendo las demás constantes.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 88,
+    "question": "Cantidad de bienes producidos por todos los trabajadores e insumos aplicados a la producción.",
+    "options": [
+      "Producto medio",
+      "Producto total",
+      "Producto marginal"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 89,
+    "question": "A la suma de los diferentes tipos de gastos que se utilizan para obtener un tipo específico de producto se le conoce como:",
+    "options": [
+      "Gastos totales",
+      "Costo de producción",
+      "Costo total"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 90,
+    "question": "Representa la sumatoria de todos los gastos del costo total, excepto el costo fijo, y están directamente relacionado con los volúmenes de producción, ejemplo, salario, combustible, semillas, fertilizantes, pesticidas, etc.",
+    "options": [
+      "Costo variable",
+      "Costo fijo",
+      "Costo total"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 91,
+    "question": "Se enfoca en el estudio del suelo, lo considera sobre todo como soporte mecánico capaz de sostener una vegetación, como reserva de agua y elementos nutritivos para el crecimiento de las plantas.",
+    "options": [
+      "Edafología",
+      "Geomorfología",
+      "Agronomía"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 92,
+    "question": "La edafología se encarga de estudiar el suelo en todos sus aspectos: morfología, composición, sus propiedades ________, _______ y ________, su formación, entre otros.",
+    "options": [
+      "físicas, químicas y biológicas.",
+      "físicas, nutritivas y agrícolas.",
+      "físicas, evolutivas y geográficas ."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 93,
+    "question": "Se le considera como un ser natural estructurado que se encuentra en constante cambio, para su formación y evolución depende de factores bióticos como abióticos.",
+    "options": [
+      "Suelo",
+      "Aire",
+      "Vegetación"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 94,
+    "question": "Estas ciencias son el fundamento para la ciencia del suelo, contribuyen con sus conceptos, metodologías, procesos y leyes específicas.",
+    "options": [
+      "Ciencias básicas",
+      "Ciencias de la tierra",
+      "Ciencias biológicas"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 95,
+    "question": "Estas ciencias ayudan a implementar prácticas agrícolas, algunas de ellas son geografía, geología, climatología y edafología.",
+    "options": [
+      "Ciencias básicas",
+      "Ciencias de la tierra",
+      "Ciencias biológicas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 96,
+    "question": "La botánica, la zoología y microbiología son reconocidas como:",
+    "options": [
+      "Ciencias básicas",
+      "Ciencias de la tierra",
+      "Ciencias biológicas"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 97,
+    "question": "Contribuye a la regulación climática a través del secuestro de carbono en forma de materia orgánica y reduce las emisiones de gases de efecto invernadero, como el CO 2 o el N 2 O.",
+    "options": [
+      "Aire",
+      "Vegetación",
+      "Suelo"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 98,
+    "question": "La importancia del estudio de los suelos es cuantificar la calidad de las aguas en los ecosistemas agrarios provocando el impacto de factores como la escorrentía y la lixiviación.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 99,
+    "question": "Según el Sistema Americano de Taxonomía de Suelos existen 37 órdenes de suelos que se diferencian por la presencia o ausencia de determinados horizontes de diagnóstico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 100,
+    "question": "En Ecuador se han identificado diferentes tipos de órdenes de suelo, los __________ se ubican predominantemente en relieves de origen tectónico erosivo.",
+    "options": [
+      "Alfisoles",
+      "Andisoles",
+      "Aridisoles"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 101,
+    "question": "En Ecuador se han identificado diferentes tipos de órdenes de suelo, los __________ se ubican en litorales sedimentarios y fluvio-marinos como también en los relieves de la cordillera costera Chanduy-Playas.",
+    "options": [
+      "Alfisoles",
+      "Andisoles",
+      "Aridisoles"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 102,
+    "question": "Es la fragmentación, degradación parcial o total de las rocas y los minerales en contacto con la atmósfera, la hidrosfera y la biosfera.",
+    "options": [
+      "Meteorización",
+      "Mecanización",
+      "Solidificación"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 103,
+    "question": "Durante este proceso se rompe la roca firme preexistente en finas partículas que no afectan su composición química y dan origen al manto mineral residual denominado regolita.",
+    "options": [
+      "Meteorización física",
+      "Meteorización biológica",
+      "Meteorización química"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 104,
+    "question": "Es un factor que puede afectar de diversas maneras los procesos de meteorización pues controla la presencia de agua y la temperatura.",
+    "options": [
+      "Clima",
+      "Intemperismo",
+      "Humedad"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 105,
+    "question": "Al hablar sobre la resistencia de los materiales en la meteorización algunos pueden ser más resistentes a la_________________ y a la ________________.",
+    "options": [
+      "descomposición, desintegración",
+      "evolución, descomposición",
+      "polución, desintegración"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 106,
+    "question": "Son compuestos inorgánicos predominantes de la mayoría de los suelos, se caracterizan por la retención de agua y en el intercambio catiónico y aniónico de los nutrientes y plantas.",
+    "options": [
+      "Arcillas",
+      "Minerales",
+      "Cristales"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 107,
+    "question": "Dentro de las especies mineralógicas de silicatos cristalinos no arcillosos se encuentran:",
+    "options": [
+      "Granate, turmalina, epidoto",
+      "Pirofilita, ilita, vermiculita",
+      "Imogolita, ópalo, alófano"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 108,
+    "question": "La biota está representada por los ___________ e integran la fauna del suelo, tienen un rol fundamental en la fragmentación, transformación y translocación de materiales en el suelo.",
+    "options": [
+      "Organismos vivos",
+      "Material de origen",
+      "Topografía"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 109,
+    "question": "“La teoría más aceptada es que los insectos se originaron de un verdadero artrópodo y no de un onicóforo”.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 110,
+    "question": "De acuerdo con las fases de formación de los insectos: “La unión de los segmentos corporales y de los apéndices al Prostoma, formó la cabeza, tal como se encuentra en el grupo de los miriápodos, insectos y afines; en ciertos crustáceos no están unidos estos segmentos”.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 111,
+    "question": "El cuerpo de los insectos se dividió en:",
+    "options": [
+      "Tagmas, par de maxilas, tórax",
+      "Transformación de las mandíbulas, somitos, labium",
+      "Tres segmentos, tagmas, somitos"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 112,
+    "question": "Para que un insecto sea considerado como útil para la actividad del ser humano, ¿cuál de los siguientes aspectos debe tomarse en cuenta?",
+    "options": [
+      "Su papel en la polinización y estructura fitogenética",
+      "Su papel en la polinización y control de plagas",
+      "Su papel en la polinización y control en su reproducción"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 113,
+    "question": "¿Por qué es importante el papel que tienen algunos insectos en la polinización?",
+    "options": [
+      "Porque de esta manera se favorece a la industria y se reducen costos.",
+      "Porque de esto depende que algunas frutas y vegetales puedan producirse.",
+      "Porque esto favorece al esparcimiento de semillas por el viento."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 114,
+    "question": "¿Qué especie de insecto se importó a California en 1888 para controlar la escama algodonosa que ataca a los cítricos?",
+    "options": [
+      "La Apis mellifera",
+      "La Icerya purchasy",
+      "La catarinita Rodolia cardinalis (Mulsant)"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 115,
+    "question": "Una población de insectos se considera plaga cuando, por éstos, reduce la cantidad o calidad de aquello que es utilizado por el hombre.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 116,
+    "question": "La gran mayoría de insectos son perjudiciales, se calcula que solo el 3% de todas las especies son las que dañan de alguna manera lo que es útil para el hombre.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 117,
+    "question": "¿Qué nombre recibe la siguiente forma de alimentación de los insectos fitófagos? “…dejando solamente el haz y el envés, causando una apariencia de quemado, es el caso de los insectos minadores”.",
+    "options": [
+      "Causando destrucción a los tejidos",
+      "Secreción salival",
+      "Defoliación directa"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 118,
+    "question": "De manera general los insectos contienen tres pares de patas que se encuentran ubicadas en cada segmento del tórax.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 119,
+    "question": "Es la parte de la estructura corporal del insecto que tiene los siguientes rasgos: “Está compuesto de varios subsegmentos denominados tarsómeros, terminando en pretarso”.",
+    "options": [
+      "El tarso",
+      "La cabeza",
+      "El abdomen"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 120,
+    "question": "¿En qué etapa de la vida, los insectos tienen 2 pares de alas ubicadas en las regiones del meso y metatórax?",
+    "options": [
+      "Larvas",
+      "Jóvenes",
+      "Adultos"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 121,
+    "question": "Puede unirse al tórax de distinta manera. Cuando la unión es en todo el perímetro; ______________ se denomina sésil o sentado y la articulación puede considerarse nula o presentar un estrechamiento de dimensiones variables llamado pedunculado o pedicelado, como presentan ciertos Himenópteros.",
+    "options": [
+      "El esófago",
+      "El abdomen",
+      "El buche"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 122,
+    "question": "Se encuentra compuesto por una cavidad oral en donde desembocan las glándulas salivales a la altura de la base de la hipofaringe.",
+    "options": [
+      "Estomodeo",
+      "Faringe",
+      "Esófago"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 123,
+    "question": "Su función es reservar el alimento por un periodo corto, allí empieza la digestión, pero cumple funciones de filtro y triturador .",
+    "options": [
+      "El intestino",
+      "El esófago",
+      "El buche"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 124,
+    "question": "Son insectos comunes, que en su estado adulto pueden ser alados o ápteros (sin presencia de alas). ¿A qué tipo de insectos pertenece la descripción anterior?",
+    "options": [
+      "Los Ortópteros .",
+      "Los Thysanoptera .",
+      "Los Hemípteros ."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 125,
+    "question": "¿Cómo qué tipo de insectos están clasificados las langostas, saltamontes y grillos?",
+    "options": [
+      "Homóptera",
+      "Ortópteros",
+      "Hemípteros"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 126,
+    "question": "Muchos Ortópteros tienen el tercer par de patas saltadoras, con un fémur muy desarrollado.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 127,
+    "question": "Además de los piojos, ¿qué otro tipo de insecto pertenece al tipo Phthiraptera?",
+    "options": [
+      "El grillo.",
+      "La cigarra .",
+      "El chupador ."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 128,
+    "question": "Los piojos son ectoparásitos, ¿en qué animales se les encuentran?",
+    "options": [
+      "Otros insectos",
+      "Aves y mamíferos",
+      "Reptiles"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 129,
+    "question": "La importancia agrícola que tienen los grillos se relaciona con la producción animal, donde producen molestia y debilitamiento de los animales.",
+    "options": [
+      "Verdadero.",
+      "Falso ."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 130,
+    "question": "¿A qué tipo de insectos corresponden los Thysanoptera?",
+    "options": [
+      "A los pulgones.",
+      "A las langostas.",
+      "A los piojos de las plantas ."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 131,
+    "question": "El daño que ocasionan los piojos de las plantas o traps es que se alimentan de flores o verduras, las decoloran y provocan deformidades .",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 132,
+    "question": "¿Qué insectos pertenecen a la clasificación de Hemípteros?",
+    "options": [
+      "Cigarras, piojos y cochinillas",
+      "Cigarra, pulgones y chinches",
+      "Cochinillas, pulgones y cigarras"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 133,
+    "question": "Se trata de un antiguo orden de insectos con una gran variedad de colores, se puede decir que es un grupo bastante diverso .",
+    "options": [
+      "La orden de los Hemípteros.",
+      "La orden de los Homoptera",
+      "La orden de los Thysanoptera"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 134,
+    "question": "¿Qué insectos pertenecen a la clasificación de Homoptera?",
+    "options": [
+      "Moscas blancas, cochinillas y pulgones.",
+      "Cigarra, pulgones y chinches",
+      "Piojos, pulgones y cigarras"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 135,
+    "question": "Las larvas de los coleópteros pueden ser de diferentes formas y hábitos alimenticios.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 136,
+    "question": "Los __________ consumen vegetales y se pueden alimentar de las más diversas maneras (sacando pedazos, minando, haciendo galerías o túneles) y también comiendo los tallos, hojas, raíces, frutos y semillas.",
+    "options": [
+      "Hymenoptera",
+      "Coleópteros",
+      "Lepidoptera"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 137,
+    "question": "¿A qué tipo de clasificación de insectos pertenecen las hormigas, avispas y abejas?",
+    "options": [
+      "A Hymenoptera",
+      "A Coleópteros",
+      "A Lepidoptera"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 138,
+    "question": "Los Hymenoptera son insectos holometábolos, es decir de metamorfosis incompleta.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 139,
+    "question": "La diferencia entre el rol de un estudiante presencial y uno en línea radica en…",
+    "options": [
+      "Las técnicas de estudio.",
+      "La forma de redactar .",
+      "Los instrumentos y medios tecnológicos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 140,
+    "question": "Es uno de los fundamentos de la educación en línea:",
+    "options": [
+      "El aprendizaje autónomo.",
+      "El disponer de una cuenta de correo electrónico.",
+      "El siempre tener un seguimiento académico por parte del área administrativa."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 141,
+    "question": "Las estrategias de autorregulación son:",
+    "options": [
+      "Procesos para establecer objetivos.",
+      "Procesos para monitorear el desempeño de un compañero.",
+      "Se trata de la autogestión de procesos para alcanzar un conocimiento o habilidad."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 142,
+    "question": "La administración del tiempo cuenta con las siguientes fases:",
+    "options": [
+      "Autorregulación de las tareas diarias.",
+      "Planificar , organizar , llevar a la práctica, controlar y utilizar los recursos que se disponen .",
+      "Delegación de tareas a terceros, identificar mis capacidades y desechar tareas."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 143,
+    "question": "¿Cuál es una definición de estrategia de estudio?",
+    "options": [
+      "Es el arte de proyectar , ordenar y dirigir las operaciones cognitivas, secuenciales, que el estudiante ejecuta para cumplir con metas y objetivos .",
+      "b.Es la rutina diaria que tiene el estudiante para organizar sus actividades personales, profesionales y académicas.",
+      "c.Es la ruta que traza el estudiante para prepararse para su vida académica, es decir , desde que hace el proceso de inscripción hasta la presentación del examen de admisión a la universidad."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 144,
+    "question": "El alumno reflexiona, analiza momentos posteriores y reproduce información, se refiere a:",
+    "options": [
+      "Adquisición de información.",
+      "Administración de memoria .",
+      "Autorregulación."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 145,
+    "question": "El alumno debe planificar , evaluar , tener control y supervisión de proceso de estudio, se refiere a:",
+    "options": [
+      "Autorregulación .",
+      "Procesamiento de información.",
+      "Adquisición de la información"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 146,
+    "question": "Estas herramientas permiten establecer comunicación sincrónica entre dos o más personas:",
+    "options": [
+      "Zoom, Skype y Hangouts .",
+      "Drive, OneNote y Presentaciones.",
+      "Mindomo, Canva y Piktochart."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 147,
+    "question": "Son algunas herramientas de colaboración sincrónica en donde varios usuarios pueden contribuir en el mismo documento:",
+    "options": [
+      "MIndmap, Cmaptools, Google keep.",
+      "Drive, OneNote y Of fice 365",
+      "Evernote, Cmaptools, Mindmap."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 148,
+    "question": "Los trabajos académicos deben tener aspectos de forma como:",
+    "options": [
+      "Portada, introducción, desarrollo, conclusión y fuentes de consulta .",
+      "Portada, introducción, resumen, conclusión y fuentes de consulta.",
+      "Portada, resultados, introducción, desarrollo y resumen."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 149,
+    "question": "Las fuentes de información se dividen en:",
+    "options": [
+      "Primarias, secundarias y terciarias .",
+      "Físicas y digitales.",
+      "Adecuadas y útiles."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 150,
+    "question": "La televisión, radio y canales de noticias en internet son fuentes con un tratamiento ambiguo de información en el ámbito académico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 151,
+    "question": "Los libros, informes y obras de referencia son fuentes de información con un tratamiento profundo de información en el ámbito académico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 152,
+    "question": "Algunos de los textos académicos son: informes, ensayos, monografías, tesis o papers.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 153,
+    "question": "Se define como la copia de obras ajenas, dándolas como propias, se refiere al término:",
+    "options": [
+      "Plagio",
+      "Cita",
+      "Fuente de información"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 154,
+    "question": "Las bases de datos como Web of Science y Scopus son algunas de las herramientas para la investigación académica:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 155,
+    "question": "Una magnitud Física se refiere a:",
+    "options": [
+      "Una medida tridimensional",
+      "Propiedades de un sistema físico",
+      "Longitudes"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 156,
+    "question": "La longitud es utilizada para localizar un punto en el espacio y así describir el tamaño de un sistema físico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 157,
+    "question": "El tiempo es concebido como una sucesión de eventos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 158,
+    "question": "Escoja las dos unidades que corresponden al sistema métrico decimal:",
+    "options": [
+      "Centímetro, Libra",
+      "Metro, Gramo",
+      "Libra, Onza"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 159,
+    "question": "El error relativo determina la calidad de la medida realizada, que normalmente se da en un valor porcentual.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 160,
+    "question": "El plano cartesiano está dividido en:",
+    "options": [
+      "Cuadrantes",
+      "Secciones",
+      "Medidas"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 161,
+    "question": "En el sistema de coordenadas, la coordenada de un punto sobre la recta numérica es igual a la distancia entre el punto y el origen de coordenadas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 162,
+    "question": "El Producto Cartesiano R×R genera todo el Plano Cartesiano:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 163,
+    "question": "En las coordenadas cartesianas, la posición de cualquier punto sobre el plano cartesiano queda determinada conociendo una de sus coordenadas:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 164,
+    "question": "Las coordenadas rectangulares cartesianas de cualquier punto (x,y) en el plano son las coordenadas de las proyecciones de este punto sobre los ejes coordenados.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 165,
+    "question": "Describe el movimiento de los cuerpos en el universo, sin considerar las causas que lo producen:",
+    "options": [
+      "Cinemática",
+      "Dinámica",
+      "Estática"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 166,
+    "question": "Es el cambio continuo de la posición de un objeto en el transcurso del tiempo:",
+    "options": [
+      "Movimiento",
+      "Longitud",
+      "Aceleración"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 167,
+    "question": "Es una idealización de un objeto considerado como un punto matemático sin dimensiones, que tendrá sólo posición, masa y movimiento de traslación.",
+    "options": [
+      "Masa",
+      "Partícula",
+      "Dinamómetro"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 168,
+    "question": "Es la ubicación de un objeto (partícula) en el espacio, relativa a un sistema de referencia:",
+    "options": [
+      "Posición",
+      "Dirección",
+      "Sentido"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 169,
+    "question": "Se define como el cambio de posición de una partícula en el espacio.",
+    "options": [
+      "Dirección",
+      "Desplazamiento",
+      "Orientación"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 170,
+    "question": "¿Qué es la trayectoria?",
+    "options": [
+      "La orientación del movimiento",
+      "Geometría descrita por un cuerpo",
+      "Curva geométrica que describe una partícula en movimiento"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 171,
+    "question": "La velocidad instantánea o velocidad, es la que tiene un cuerpo o partícula en un instante y punto específico de su trayectoria.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 172,
+    "question": "Un diagrama de movimiento es:",
+    "options": [
+      "Un dibujo a mano alzada",
+      "La representación gráfica de un movimiento y de sus características",
+      "Líneas rectas paralelas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 173,
+    "question": "Un vector tiene magnitud, dirección y ……",
+    "options": [
+      "sentido",
+      "orientación",
+      "altura"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 174,
+    "question": "Un vector libre está sujeto a un punto de aplicación en particular .",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 175,
+    "question": "Los vectores no se modifican si éstos se trasladan paralelamente a sí mismos. Es una propiedad de los vectores:",
+    "options": [
+      "Coplanares",
+      "Libres",
+      "Adición de vectores"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 176,
+    "question": "Al disparar un proyectil, la trayectoria forma una elipse:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 177,
+    "question": "La agricultura desempeña un papel importante en la economía ecuatoriana, proporciona alimentos y materias primas únicamente.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 178,
+    "question": "La agricultura es el conjunto de técnicas y conocimientos para cultivar la tierra y dentro de los sectores económicos se clasifica en el:",
+    "options": [
+      "S ector Primario",
+      "Sector Secundario",
+      "Sector Terciario"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 179,
+    "question": "El desarrollo de la humanidad está vinculado desde sus inicios con el desarrollo de la:",
+    "options": [
+      "Agricultura",
+      "Pesca",
+      "Ganadería"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 180,
+    "question": "En América Latina, las culturas prehispánicas son ejemplos del desarrollo social, económico y cultural de los asentamientos humanos, en gran medida por el éxito en domesticar animales, así como en el dominio de la producción de alimentos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 181,
+    "question": "Las técnicas de producción agrícola se siguen desarrollando, cada año se busca la posibilidad de aumentar los rendimientos y aumentar los costos de producción.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 182,
+    "question": "Entre las tecnologías más nuevas existentes se encuentran los transgénicos, donde a un cultivo se le inserta material genético de otra especie, que le permite:",
+    "options": [
+      "Mejorar el rendimiento en la producción",
+      "Enfatizar los efectos de las heladas",
+      "Insertar químicos agroecológicos"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 183,
+    "question": "En Ecuador se busca motivar la producción de agrocombustible, lo cual tiene una serie de implicaciones:",
+    "options": [
+      "Industriales, sociales y económicas",
+      "Ambientales, sociales y económicas",
+      "Tecnológicas, sociales y económicas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 184,
+    "question": "La agronomía permite obtener utilidades a través de la correcta administración y gerencia de las unidades productivas, las mismas que deben tener el carácter de negocio agrícola.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 185,
+    "question": "La agricultura permite alcanzar una producción sostenible de alimentos y materias primas, utilizando tecnologías que protejan y den sostenibilidad al medio ambiente.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 186,
+    "question": "La agronomía juega un papel fundamental en la evolución del medio rural, de la industria agropecuaria y:",
+    "options": [
+      "El sector meteorológico",
+      "El sector geográfico",
+      "E l sector agroalimentario"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 187,
+    "question": "Los productores se enfocan en el aumento del rendimiento y la gestión empresarial de sus cultivos, este cambio se ha dado gracias a:",
+    "options": [
+      "La agricultura",
+      "La agronomía",
+      "La tecnología"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 188,
+    "question": "La aportación de los agrónomos ha impedido estandarizar calidad y costos de producción.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 189,
+    "question": "La agricultura se caracteriza por la tradición cultural e histórica.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 190,
+    "question": "La sostenibilidad es un gran sistema complejo de organismos y de factores tanto físicos como ambientales.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 191,
+    "question": "Solo el 1% de la energía solar puede ser aprovechada por los organismos vivos, el proceso de __________ permite que la energía radiante se transforme en energía química y pueda ser metabolizada por las células a través del proceso de respiración celular , la cual se realiza en las mitocondrias.",
+    "options": [
+      "fotosíntesis",
+      "transformación",
+      "intercambio"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 192,
+    "question": "Tiene un impacto sobre todo el sistema agrario y determina el pH del suelo.",
+    "options": [
+      "El clima",
+      "El suelo",
+      "El agua"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 193,
+    "question": "Un sector económico es un área que corresponde a las diferentes actividades financieras de la economía, cuyo objeto es el de generar recursos económicos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 194,
+    "question": "El sector _____________ se ocupa de la obtención de la materia prima.",
+    "options": [
+      "Primario",
+      "Secundario",
+      "Terciario"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 195,
+    "question": "El sector _____________ se ocupa de la industrialización, así como a la manufactura.",
+    "options": [
+      "Primario",
+      "Terciario",
+      "Secundario"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 196,
+    "question": "El sector _____________ se ocupa del almacenamiento, transporte y comercialización de materias primas y productos manufacturados.",
+    "options": [
+      "Terciario",
+      "Primario",
+      "Secundario"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 197,
+    "question": "Ecuador se caracterizaba en el año de 1990 por tener como base a la agricultura siendo cerca del 60% del producto Interno del país, de ahí su importancia.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 198,
+    "question": "Son éstos los que suministran productos para una alimentación saludable, y aquellos que sirven para la exportación, siendo fuente de ingreso de divisas para la economía de Ecuador , además de generar fuentes de empleo.",
+    "options": [
+      "Vendedores de verduras y frutas",
+      "Agricultores",
+      "Intermediarios"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 199,
+    "question": "El sector agrícola debe ser tomado en Ecuador como un activo estratégico pues se trata de un arte vinculante de la economía que está por desarrollarse.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 200,
+    "question": "El Ministerio de Agricultura y Ganadería asegura que cuando el sector agropecuario provee al menos el 97% del consumo alimenticio básico, asegurando la alimentación de más de 16 millones de ecuatorianos, siendo esto base de la supervivencia de la población.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 201,
+    "question": "Para la producción agrícola se requiere de un adecuado _____________, que es decir se trata de la utilización de las tierras en el sector considerado como rural de un país.",
+    "options": [
+      "Fertilizante",
+      "Cosecha",
+      "Uso de suelo"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 202,
+    "question": "Al hablar de las producciones agrícolas de Ecuador es importante hacer hincapié en que desde su fundación su producción se ha basado en recursos primarios como el cacao, banano, café, atún, flores, camarón y otros obtenidos de la naturaleza.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 203,
+    "question": "Se define como un programa de control de plagas, en el cual se busca la prevención y control de daños de manera sostenible.",
+    "options": [
+      "Manejo Integrado de Plagas.",
+      "Organización de las Naciones Unidas para la Alimentación y la Agricultura.",
+      "Nivel de Daño Económico."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 204,
+    "question": "Son las estrategias y prácticas que combina el MIP para producir cultivos sanos y disminuir el uso de plaguicidas.",
+    "options": [
+      "Regulaciones, controles, físicas y eléctricas",
+      "Biológicas, químicas, físicas y agrícolas",
+      "Biológicas, químicas, deportivas y económicas"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 205,
+    "question": "¿Cuáles son los niveles de organización de los ecosistemas?",
+    "options": [
+      "Individuo, población, comunidad y ecosistema",
+      "Autoecología, ecofisiología, ecología de poblaciones y ecología de comunidades",
+      "Ninguna de las anteriores"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 206,
+    "question": "Unidad de producción diseñada y controlada por el hombre, donde realiza adaptación, modificación e interacción con los recursos naturales que formaban anteriormente un ecosistema.",
+    "options": [
+      "Ecosistema",
+      "Comunidad",
+      "Agroecosistema"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 207,
+    "question": "Método que se recomienda para situaciones en las que se sabe poco sobre la distribución de la plaga o sobre la tasa de infestación, consiste en dividir el lote en unidades de muestreo y cada unidad debe tener la misma probabilidad de selección.",
+    "options": [
+      "Muestreo sistemático",
+      "Muestreo al azar simple o aleatorio simple",
+      "Muestreo al azar estratificado"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 208,
+    "question": "Consiste en dividir el lote en unidades de muestreo y retirar la muestra de las unidades del lote a intervalos fijos y predeterminados. La selección de la primera unidad debe hacerse al azar en el lote",
+    "options": [
+      "Muestreo al azar simple o aleatorio simple",
+      "Muestreo al azar estratificado",
+      "Muestreo sistemático"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 209,
+    "question": "¿Cuáles son los puntos que sigue el muestreo de enfermedades?",
+    "options": [
+      "Muestreo sistemático, Muestreo al azar simple o aleatorio simple y Muestreo al azar estratificado.",
+      "Seleccionar el método de muestreo, determinar la unidad de muestreo según el objetivo, seleccionar el tamaño muestral y seleccionar las fechas de muestreo.",
+      "Seleccionar el método de muestreo, determina la unidad de muestreo según el objetivo y selecciona el patrón aglomerado."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 210,
+    "question": "Juega un papel muy importante en el conocimiento de la plaga, el diseño de estrategias de control y en el control biológico de un programa de manejo integrado de plagas.",
+    "options": [
+      "Dinámica de poblaciones",
+      "Muestreo al azar estratificado",
+      "Agroecosistema"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 211,
+    "question": "Factores externos que son tomados en cuenta en la dinámica poblacional de plagas y sus enemigos naturales.",
+    "options": [
+      "Temperatura, Humedad relativa y Fotoperíodo",
+      "Especies r estrategas y Especies k estrategas o equilibristas",
+      "Temperatura, Suelo y Precipitación"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 212,
+    "question": "Son organismos que desarrollan sus estados inmaduros a expensas del hospedero, generalmente lo matan antes o al alcanzar su madurez, los adultos son de vida libre y frecuentemente se alimentan de mielecilla y néctar .",
+    "options": [
+      "Entomopatógenos.",
+      "Parasitoides.",
+      "Depredadores"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 213,
+    "question": "Grupo que causa enfermedades en la plaga, se encuentran organismos como virus, bacterias, protozoos, hongos y nemátodos.",
+    "options": [
+      "Depredadores.",
+      "Entomopatógenos.",
+      "Parasitoides."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 214,
+    "question": "Es el método en el que se realiza la aplicación de leyes, normas, regulaciones y medidas administrativas creadas a nivel nacional e internacional para prevenir , detectar , controlar y erradicar las plagas.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Físicos.",
+      "Métodos Legales."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 215,
+    "question": "Ejemplos de medidas de cumplimiento obligatorio en el territorio nacional.",
+    "options": [
+      "Diagnóstico, vigilancia y notificación fitosanitaria de plantas y productos vegetales, Requisitos fitosanitarios y Áreas libres de plagas y de escasa prevalencia de plagas.",
+      "Cuarentena cuando se detecte una o varias plagas que represente un riesgo fitosanitario y Medidas provisionales, de emergencia o previsión para aplicarse en caso de una situación fitosanitaria nueva o imprevista.",
+      "Todas las anteriores."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 216,
+    "question": "Método que consiste en la aplicación de prácticas agronómicas de manipulación del agroecosistema con el fin de disminuir el daño económico de las plagas.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Físicos.",
+      "Métodos Legales."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 217,
+    "question": "Son ejemplos de prácticas usadas en el control cultural.",
+    "options": [
+      "Selección del sitio, Preparación del suelo, Manejo del agua y Fechas de siembra.",
+      "Densidad de cultivo, Fertilización, Asociación de cultivos, Rotación de cultivos y Cultivos trampa.",
+      "Todas las mencionadas."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 218,
+    "question": "Método que consiste en el uso de elementos como la temperatura, humedad, insolación, fotoperiodo y radiación, para modificar el medio en el que se desarrolla la plaga.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Físicos.",
+      "Métodos Legales."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 219,
+    "question": "Son ejemplos de prácticas usadas como métodos físicos de control de plagas.",
+    "options": [
+      "Selección del sitio, Preparación del suelo, Manejo del agua y Fechas de siembra.",
+      "Acolchado del suelo, Redes o mallas y Embolsado de frutos.",
+      "Exclusión, Térmico, Humedad, Radiación y Aceites."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 220,
+    "question": "Método que consiste en remover y destruir tanto las plagas como las partes de las plantas infestadas y las malezas que se presenten en el terreno, por medio de herramientas mecánicas o técnicas manuales de colecta y destrucción.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Físicos.",
+      "Métodos Mecánicos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 221,
+    "question": "Son ejemplos de prácticas usadas como métodos mecánicos de control.",
+    "options": [
+      "Selección del sitio, Preparación del suelo, Manejo del agua y Fechas de siembra",
+      "Eliminación manual de la plaga, Recolección de partes dañadas, Trituración de insectos, Presión y Pulido.",
+      "Exclusión, Térmico, Humedad, Radiación y Aceites."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 222,
+    "question": "Es el método de combate de plagas agrícolas con el uso de pesticidas orgánicos o sintéticos.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Químicos.",
+      "Métodos Legales."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 223,
+    "question": "Método en el cual se usan los enemigos naturales de las plagas para combatirlas cuando están causando problemas en el cultivo.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Biológicos.",
+      "Métodos Legales."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 224,
+    "question": "Los agentes de control biológicos o enemigos naturales que se usan para el control de plagas se clasifican en:",
+    "options": [
+      "Depredadores, Parasitoides, Entomopatógenos, Antagonistas o competidores.",
+      "Acaricida, Bactericida, Fungicida, Herbicida, Insecticida y Nematicida.",
+      "Acaricida, Bactericida, Organoclorados, Organofosforados y Nematicida."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 225,
+    "question": "El control biológico se divide en dos tipos, los cuales son:",
+    "options": [
+      "Control Biológico Natural y Control Biológico Aplicado.",
+      "Control biológico por conservación y Control biológico aumentativo.",
+      "Control biológico por conservación y Control Biológico Clásico."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 226,
+    "question": "Método que se refiere al manejo de las características genéticas del cultivo o de la plaga.",
+    "options": [
+      "Métodos Culturales.",
+      "Métodos Físicos.",
+      "Métodos Genéticos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 227,
+    "question": "Dos propiedades de la materia son:",
+    "options": [
+      "La masa y el olor .",
+      "El volumen y la masa.",
+      "Estructura molecular y el sabor ."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 228,
+    "question": "Se calienta agua en una estufa, provocando un cambio de estado, de líquido a sólido, ¿qué tipo de propiedad es?",
+    "options": [
+      "Propiedad extensiva.",
+      "Propiedad intensiva .",
+      "Punto de fusión."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 229,
+    "question": "¿Cuál de las siguientes es una propiedad extensiva?",
+    "options": [
+      "Peso .",
+      "Viscosidad.",
+      "Concentración."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 230,
+    "question": "El aire es un gas que:",
+    "options": [
+      "Tiene masa y volumen .",
+      "No pesa",
+      "No tiene masa."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 231,
+    "question": "¿Qué es una mezcla?",
+    "options": [
+      "Unión o combinación de dos o más sustancias que conservan sus propiedades",
+      "Es la unión de dos átomos",
+      "Es la unión de una sustancia y una molécula"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 232,
+    "question": "Los números cuánticos sirven para:",
+    "options": [
+      "Entender el funcionamiento del átomo que se encuentra dentro de los electrones.",
+      "Entender el funcionamiento del átomo.",
+      "Entender el funcionamiento de los electrones que se encuentran dentro del átomo."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 233,
+    "question": "El concepto de distribución electrónica se refiere a:",
+    "options": [
+      "La forma en la que los átomos están dispuestos.",
+      "La forma en la que los electrones están dispuestos en un átomo dependiendo de sus capas de electrones.",
+      "La forma en la que los electrones están dispuestos sin importar sus capas de electrones."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 234,
+    "question": "¿Cuántos niveles de energía pueden existir alrededor del núcleo del átomo?",
+    "options": [
+      "7",
+      "5",
+      "3"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 235,
+    "question": "¿Cuáles son los 4 subniveles de energía?",
+    "options": [
+      "S,p,d,m.",
+      "S, p, d, f.",
+      "S,p,m,n."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 236,
+    "question": "¿Cuál es el número de electrones de cada subnivel de energía?",
+    "options": [
+      "2,4,6 y 8.",
+      "2,3,4 y 5.",
+      "2,6,10 y 14."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 237,
+    "question": "¿Cuáles son los tres grandes grupos en los que se puede clasificar la tabla periódica?",
+    "options": [
+      "Metales, metaloides y no metales .",
+      "Metales de transición, metaloides y lantánidos.",
+      "Metaloides, metales y actínidos."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 238,
+    "question": "Dentro de los metales podemos encontrar:",
+    "options": [
+      "Alcalinos, metales de transición y lantánidos .",
+      "Halógenos, metaloides y metales de transición.",
+      "Lantánidos, actínidos y gases nobles."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 239,
+    "question": "Algunas de las características de los metales es que son:",
+    "options": [
+      "Duros, elásticos y no maleables.",
+      "Blandos, elásticos y maleables.",
+      "Duros, resistentes y maleables ."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 240,
+    "question": "Algunas propiedades químicas de los metales son:",
+    "options": [
+      "Conductividad térmica, impenetrabilidad, viscosidad.",
+      "Conductividad térmica, magnetismo, conductividad eléctrica .",
+      "Conductividad térmica, dilatación y viscosidad."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 241,
+    "question": "Dentro de las propiedades físicas de los no metales encontramos:",
+    "options": [
+      "No son maleables, pueden ser líquidos, son lustrosos .",
+      "Son sólidos, son maleables, son opacos.",
+      "Son gaseosos, son maleables, son lustrosos."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 242,
+    "question": "Es una propiedad química de los no metales:",
+    "options": [
+      "Altos puntos de fusión.",
+      "Buenos conductores térmicos.",
+      "Malos conductores eléctricos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 243,
+    "question": "Es la distancia que existe entre el núcleo del átomo y el orbital que se encuentra más afuera del átomo.",
+    "options": [
+      "Energía de ionización.",
+      "Afinidad electrónica.",
+      "Radio atómico."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 244,
+    "question": "¿Qué es un mol?",
+    "options": [
+      "Es una constante que representa la cantidad de átomos presentes en una molécula.",
+      "Es la cantidad de sustancia de un átomo, molécula o cualquier partícula .",
+      "Es la unidad de masa de cualquier sustancia o átomo."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 245,
+    "question": "¿Qué es la masa molar?:",
+    "options": [
+      "Es el peso de una molécula completa de cualquier sustancia .",
+      "Es el peso de un elemento cualquiera.",
+      "Es el peso de un solo átomo de una molécula cualquiera."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 246,
+    "question": "Las reacciones químicas son el proceso en el que una o varias sustancias cambian para formar una nueva.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 247,
+    "question": "Ejemplos de reacciones químicas son la corrosión y la putrefacción:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 248,
+    "question": "Una ecuación química se utiliza para describir lo que sucede dentro de una reacción, se escriben los reactivos y productos sin la necesidad de utilizar símbolos químicos.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 249,
+    "question": "¿Para qué sirve el balanceo de ecuaciones químicas?",
+    "options": [
+      "Porque para que puedan ocurrir , debe existir mayor cantidad de átomos de cada elemento en los reactivos que en los productos.",
+      "Porque para que puedan ocurrir , debe existir el mismo número de átomos de cada elemento tanto en reactivos como en productos.",
+      "Porque para que puedan ocurrir , debe existir mayor cantidad de átomos de cada elemento en los productos."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 250,
+    "question": "Las reacciones de sustitución, adición y neutralización son algunos ejemplos de los tipos de reacciones que existen.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 251,
+    "question": "¿Qué significa la frase “la materia no se crea ni se destruye solo se transforma”:",
+    "options": [
+      "La cantidad de masa en una reacción debe ser constante en los átomos que se encuentran en los reactivos.",
+      "La cantidad de masa en una reacción no debe ser constante.",
+      "La cantidad de masa en una reacción debe ser constante tanto en reactivos como en productos."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 252,
+    "question": "La ley de la conservación de la materia fue propuesta por:",
+    "options": [
+      "John Dalton.",
+      "Antonio Lavoisier .",
+      "Robert Boyle."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 253,
+    "question": "De acuerdo con la ley de la conservación de la masa se menciona que la energía se conserva en un sistema abierto.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 254,
+    "question": "¿Cuáles son ejemplos de formas de energía?",
+    "options": [
+      "Descomposición, neutralización.",
+      "Térmica, química, eléctrica.",
+      "Mecánica, doble sustitución."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 255,
+    "question": "Las reacciones exotérmicas son:",
+    "options": [
+      "Aquellas que necesitan energía para que se puedan llevar a cabo.",
+      "Aquellas que tienen una liberación de energía.",
+      "Aquellas que reducen la cantidad de energía."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 256,
+    "question": "¿Qué son las soluciones?",
+    "options": [
+      "Son mezclas homogéneas de dos o más sustancias que se componen por soluto y solvente .",
+      "Son mezclas heterogéneas de dos o más sustancias que se componen por soluto y solvente.",
+      "Son mezclas donde solamente está presente un elemento."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 257,
+    "question": "¿Cuáles son los tipos de soluciones que existen?",
+    "options": [
+      "Coloides, fluidos, salinas.",
+      "Mecánicas, intravenosas, químicas.",
+      "Diluidas, concentradas y saturadas ."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 258,
+    "question": "El agua de mar es un ejemplo de solución:",
+    "options": [
+      "Concentrada.",
+      "Diluida.",
+      "Saturada."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 259,
+    "question": "Es una sustancia que contiene iones libres, es un buen conductor de electricidad y pueden encontrarse en soluciones ácidas, básicas o sales.",
+    "options": [
+      "Electrolitos",
+      "No electrolitos.",
+      "Ninguna de las anteriores."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 260,
+    "question": "Los ácidos fuertes como el HCl se caracterizan por ser:",
+    "options": [
+      "Electrolitos débiles.",
+      "Electrolitos fuertes .",
+      "No electrolitos."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 261,
+    "question": "Los _________ son las sustancias que cuando se disuelven en agua, se separan en sus moléculas y no tienen carga.",
+    "options": [
+      "Electrolitos.",
+      "Electrolitos débiles.",
+      "No electrolitos ."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 262,
+    "question": "Un ejemplo de no electrolito es:",
+    "options": [
+      "Ácidos inorgánicos.",
+      "Alcoholes .",
+      "Bases fuertes."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 263,
+    "question": "La capacidad que tiene una sustancia para disolverse en otra se le llama:",
+    "options": [
+      "Solubilidad .",
+      "Solvente.",
+      "Mezcla."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 264,
+    "question": "Se le llama concentración a la proporción o relación de los componentes de una mezcla.",
+    "options": [
+      "Verdadero .",
+      "Falso."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 265,
+    "question": "A la cantidad de moles de soluto presentes en un litro de disolución se le conoce como:",
+    "options": [
+      "Dilución.",
+      "Molaridad .",
+      "Normalidad."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 266,
+    "question": "La molaridad mide la concentración para que la disolución sea numéricamente igual:",
+    "options": [
+      "Verdadero.",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 267,
+    "question": "Al número de equivalentes de soluto contenidos en un litro de disolución se le conoce como:",
+    "options": [
+      "Dilución.",
+      "Molaridad.",
+      "Normalidad."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 268,
+    "question": "Se llama solución en una reacción química al proceso en el que las sustancias se van transformando y se conserva su estructura molecular en un medio acuoso.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 269,
+    "question": "El agua es una molécula que posee carga:",
+    "options": [
+      "Positiva.",
+      "Neutra .",
+      "Negativa."
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 270,
+    "question": "A un sólido que se separa de la disolución se le llama:",
+    "options": [
+      "Reacción de precipitación.",
+      "Reacción de residuos.",
+      "Reacción conservante."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 273,
+    "question": "Se refiere a la proporción de arcilla, limo y arena con un diámetro inferior a 2 mm.",
+    "options": [
+      "Textura",
+      "Estructura",
+      "Porosidad"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 274,
+    "question": "La densidad aparente del suelo se define como el peso seco del suelo dividido por su volumen total, incluidos los poros.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 275,
+    "question": "La densidad real del suelo es la relación entre su peso seco y su volumen real o volumen de partículas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 276,
+    "question": "Se refiere a la forma en que las partículas del suelo están arregladas para formar agregados o partículas secundarias.",
+    "options": [
+      "Permeabilidad",
+      "Estructura",
+      "Textura"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 277,
+    "question": "Nivel de humedad del suelo en el que las plantas no pueden absorber agua del suelo y cuando no se agrega agua adicional, las plantas se marchitan y mueren.",
+    "options": [
+      "Capacidad de campo",
+      "Punto de marchitez permanente",
+      "Percolación"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 278,
+    "question": "El agua que es retenida por el suelo con una fuerza de 15 a 25 atmósferas puede ser absorbida por las plantas sin ninguna dificultad.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 279,
+    "question": "Son parámetros climatológicos que afectan la evaporación.",
+    "options": [
+      "Textura, estructura, porosidad y permeabilidad",
+      "Luz, calidad del aire, lluvias ácidas y temperatura",
+      "Radiación, temperatura del aire, humedad atmosférica y velocidad del viento."
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 280,
+    "question": "Proceso por el cual el agua que contienen los tejidos de la planta se evapora y se transfiere a la atmósfera a través de los estomas.",
+    "options": [
+      "Evapotranspiración",
+      "Transpiración",
+      "Evaporación"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 281,
+    "question": "Tienen la facultad de abrirse y cerrarse según las necesidades de la planta, los factores que determinan su apertura son la luz, estado hídrico de la planta, temperatura y contenido interno de CO 2 .",
+    "options": [
+      "Pétalos",
+      "Floema y Xilema",
+      "Estomas"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 282,
+    "question": "La evapotranspiración es la suma del agua evaporada del suelo y la transpirada por las plantas, por lo que se define como el agua utilizada por la planta y su entorno.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 283,
+    "question": "En un cultivo anual la transpiración es mayor en los inicios del ciclo y conforme el área foliar aumenta la evaporación se incrementa debido a la cobertura que el cultivo proporciona al suelo.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 284,
+    "question": "Es la tasa de evapotranspiración de una superficie de referencia con un cultivo de pasto, que no presenta restricciones de agua.",
+    "options": [
+      "Evapotranspiración del cultivo de referencia (ET o)",
+      "Evapotranspiración del Cultivo Bajo Condiciones No Estándar (ET c aj)",
+      "Evapotranspiración del Cultivo Bajo Condiciones Estándar (ET c)"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 285,
+    "question": "Se determina con la evapotranspiración de un cultivo cualquiera que se encuentra en parcelas amplias, en condiciones óptimas de suelo, agua sanidad, fertilización y alcanza la máxima producción bajo las condiciones climáticas dadas.",
+    "options": [
+      "Evapotranspiración del Cultivo Bajo Condiciones No Estándar (ET c aj)",
+      "Evapotranspiración del cultivo de referencia (ET o)",
+      "Evapotranspiración del Cultivo Bajo Condiciones Estándar (ET c)"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 286,
+    "question": "Para un cultivo específico el Kc cambia durante los periodos de crecimiento, debido a las variaciones que se presentan durante dichos periodos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 287,
+    "question": "El requerimiento de agua en un cultivo es definido como:",
+    "options": [
+      "La cantidad de agua que compensa las pérdidas por evapotranspiración.",
+      "El agua que requiere el cultivo menos la precipitación efectiva, más las adiciones de agua requeridas para lavado de sales.",
+      "La cantidad de agua que compensa las pérdidas por evapotranspiración menos la corrección de la uniformidad de aplicación."
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 288,
+    "question": "El requerimiento de agua de riego es definido como:",
+    "options": [
+      "La cantidad de agua que compensa las pérdidas por evapotranspiración.",
+      "El agua que requiere el cultivo menos la precipitación efectiva, más las adiciones de agua requeridas para lavado de sales.",
+      "La cantidad de agua que compensa las pérdidas por evapotranspiración menos la corrección de la uniformidad de aplicación"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 289,
+    "question": "En el cálculo del requerimiento de agua de un cultivo se usa la ETc, para calcularla se utiliza la fórmula𝐸𝑇 𝑐=𝐸𝑇 0*𝐾 𝑐",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 290,
+    "question": "La evapotranspiración del cultivo de referencia (ET 0 ) no puede ser calculada a partir de datos meteorológicos, solo puede ser medida en la pana de evaporación.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 291,
+    "question": "Método que consiste en hacer mediciones de la evaporación que ocurre en una superficie de agua expuesta a las condiciones ambientales.",
+    "options": [
+      "Método de Penman-Monteith",
+      "Método de pana de evaporación",
+      "Método gravimétrico"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 292,
+    "question": "Es un valor exclusivo para cada cultivo, suele ser menor a 1 y varía según la etapa de desarrollo del cultivo y lo podemos obtener de las tablas que existen para todos los cultivos.",
+    "options": [
+      "Coeficiente de cultivo (Kc)",
+      "Evapotranspiración del cultivo de referencia (ET 0 )",
+      "Ninguna de las anteriores"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 293,
+    "question": "Son los parámetros de humedad del suelo y sus valores se pueden obtener en campo y laboratorio.",
+    "options": [
+      "Capacidad de Campo (CC) y Punto de Marchitez Permanente (PMP)",
+      "Turnos de riego",
+      "Todas las anteriores"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 294,
+    "question": "Métodos directos para determinar la humedad del suelo",
+    "options": [
+      "Resistencia Eléctrica, Método gravimétrico, Reflectometría, Termómetro infrarrojo",
+      "Tensiómetro, Resistencia Eléctrica, Sonda de neutrones, Reflectometría, Termómetro infrarrojo",
+      "Método al tacto, Método gravimétrico"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 295,
+    "question": "Métodos indirectos para determinar la humedad del suelo",
+    "options": [
+      "Método al tacto, Método gravimétrico",
+      "Resistencia Eléctrica, Método gravimétrico, Reflectometría, al tacto.",
+      "Tensiómetro, Resistencia Eléctrica, Sonda de neutrones, Reflectometría, Termómetro infrarrojo"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 296,
+    "question": "Método basado en la observación de la apariencia y consistencia del suelo, consiste en tomar una muestra de suelo que se amasa y se compara con una guía para determinar la humedad.",
+    "options": [
+      "Método del tacto",
+      "Método gravimétrico",
+      "Método de Penman-Monteith"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  },
+  {
+    "id": 297,
+    "question": "Dispositivo que mide la fuerza con la que el suelo retiene el agua, consiste en una cápsula porosa conectada a una columna de agua con un sensor de vacío, a medida que el suelo se seca, comienza a jalar agua a través del tubo de cerámica, esto provoca una fuerza de succión que es detectada por los sensores.",
+    "options": [
+      "Reflectometría",
+      "Termómetro infrarrojo",
+      "Tensiómetro"
+    ],
+    "answerIndex": 2,
+    "explanation": null
+  },
+  {
+    "id": 298,
+    "question": "Determina el contenido de humedad por la resistencia al paso de corriente eléctrica entre dos electrodos en contacto con el suelo, entre más contenido de agua hay en el suelo más baja es la resistencia.",
+    "options": [
+      "Reflectometría",
+      "Resistencia Eléctrica",
+      "Sonda de neutrones"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 299,
+    "question": "Consiste en una fuente radioactiva que envía una cantidad de neutrones rápidos que chocan con los átomos de hidrógeno volviéndose lentos, un detector mide la proporción de neutrones rápidos que salen y de neutrones lentos que regresan, esta relación se usa para determinar el contenido de humedad. Se requiere de licencias para su operación.",
+    "options": [
+      "Resistencia eléctrica",
+      "Sonda de neutrones",
+      "Termómetro infrarrojo"
+    ],
+    "answerIndex": 1,
+    "explanation": null
+  },
+  {
+    "id": 300,
+    "question": "Mide el tiempo de propagación de una onda electromagnética de alta frecuencia, con ayuda de una sonda compuesta de dos varillas de acero inoxidable, y lo convierte en una lectura de humedad del suelo.",
+    "options": [
+      "TDR (Reflectometría en dominio de tiempos)",
+      "FDR (Reflectometría en el dominio de frecuencias)",
+      "Termómetro infrarrojo"
+    ],
+    "answerIndex": 0,
+    "explanation": null
+  }
+]
